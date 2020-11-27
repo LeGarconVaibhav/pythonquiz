@@ -1,0 +1,216 @@
+{
+  "question_pack1" :
+    [{
+      "question" : "Which of the following version of Python was released in December, 2015 by Python.org?",
+      "options" : ["3.3", "3.5.1", "2.4", "2.6"],
+      "answer" : "3.5.1"
+    },
+      {
+      "question" : "Python files are saved with the extension as....?",
+      "options" : [".python", ".pe", ".py", ".pi"],
+      "answer" : ".py"
+    },
+      {
+      "question" : "What is the name of the GUI that comes in-built as an interactive shell with Python?",
+      "options" : ["PGUI", "Pyshell", "IDLE", "PythonSh"],
+      "answer" : "IDLE"
+    },
+      {
+      "question" : "IDLE stands for....?",
+      "options" : ["Indigenous Development Lab", "Integrated Development Environment", "Integrated Developers Local Envioronment", "Indie Developers Environment"],
+      "answer" : "Integrated Development Environment"
+    },
+      {
+      "question" : "The function to display specific message on the screen is ...?",
+      "options" : ["print", "display", "run", "output"],
+      "answer" : "print"
+    },
+      {
+      "question" : "Which of the following is assignment operator in Python?",
+      "options" : ["==", "===", ">>>", "="],
+      "answer" : "="
+    },
+      {
+      "question" : "Which of the following is used to initialize multiple variables with a common value?",
+      "options" : ["x=y:y=33 ", "x=y=z=33", "x=z;y=z;x=33;", "x&y&z=33"],
+      "answer" : "x=y=z=33"
+    },
+      {
+      "question" : "Comments in Python begin with...?",
+      "options" : ["{", "%", "*", "#"],
+      "answer" : "#"
+    },
+      {
+      "question" : "A user-specified value can be assigned to a variable with this function...",
+      "options" : ["user", "enter", "input", "value"],
+      "answer" : "input"
+    },
+      {
+      "question" : "User input is read as...?",
+      "options" : ["floating decimal", "text string", "boolean value", "integer"],
+      "answer" : "text string"
+    },
+      {
+      "question" : "For which type of error does the interpreter halts and reports the error but does not execute the program?",
+      "options" : ["semantic error", "syntax error", "runtime error", "all type of errors"],
+      "answer" : "syntax error"
+    },
+      {
+      "question" : "For which type of error does the interpreter runs the program but halts at error and reports the error as as \"Exception\"?",
+      "options" : ["semantic error", "syntax error", "runtime error", "all type of errors"],
+      "answer" : "runtime error"
+    },
+      {
+      "question" : "For which type of error does the interpreter runs the program but halts at error and does not reports an error?",
+      "options" : ["semantic error", "syntax error", "runtime error", "all type of errors"],
+      "answer" : "semantic error"
+    },
+      {
+      "question" : "What does the following statement do?\nx = open('python.csv', 'r')",
+      "options" : ["Opens an existing text file named python.csv to write",
+        "Opens an existing text file named python.csv to append",
+        "Opens an existing text file named python.csv to read",
+        "Opens a new file named python.csv to read"],
+      "answer" : "Opens an existing text file named python.csv to read"
+      },
+      {
+      "question" : "What does the following statement do?\nx = open('python.csv', 'w')",
+      "options" : ["Opens or creates a text file named python.csv to write",
+        "Opens or creates a text file named python.csv to append",
+        "Opens or creates a text file named python.csv to read",
+        "Opens a new file named python.csv to write"],
+      "answer" : "Opens or creates a text file named python.csv to write"
+    },
+      {
+      "question" : "What does the following statement do?\nx = open('python.txt', 'a+')",
+      "options" : ["Opens a text file named python.txt to read",
+        "Opens a text file named python.txt to read and write",
+        "Opens a text file named python.txt to write",
+        "Opens or creates a text file named python.txt to read from or write to at the end of the file"],
+      "answer" : "Opens or creates a text file named python.txt to read from or write to at the end of the file"
+    },
+      {
+      "question" : "What type of error is shown when you use a variable without assigning an initial value?",
+      "options" : ["not declared", "not defined", "not assigned", "not a variable"],
+      "answer" : "not defined"
+    },
+      {
+      "question" : "What will be the output after the following statement?\nprint('2\\t4')",
+      "options" : ["2t4", "2\\t4", "2 4", "2 tab 4"],
+      "answer" : "2\\t4"
+    },
+      {
+      "question" : "What will be the output for a function that does not return any value?",
+      "options" : ["None", "No value", "Zero", "Bool"],
+      "answer" : "None"
+    },
+      {
+      "question" : "Which of the following has the highest precedence in an expression?",
+      "options" : ["Parentheses", "Exponential", "Division", "Subtraction"],
+      "answer" : "Parentheses"
+    },
+      {
+      "question" : "What will be the output after the following statements?\na = 4*3**2",
+      "options" : ["32", "144", "36", "24"],
+      "answer" : "36"
+    },
+      {
+      "question" : "What is the name of Python's built-in module for interface to Tcl/Tk for graphical user interfaces?",
+      "options" : ["tkgui ", "guitk", "intertk", "tkinter"],
+      "answer" : "tkinter"
+    },
+      {
+      "question" : "What will be the value of 'x' after the following statement?\nx = list(map(lambda x:x**2, range(5)))",
+      "options" : ["[0, 1, 2, 3, 4, 5]", "[1, 4, 9, 16, 25]", "[0, 1, 4, 9, 16, 25]", "[0, 1, 4, 9, 16]"],
+      "answer" : "[0, 1, 4, 9, 16]"
+    },
+      {
+      "question" : "What will be the value of 'x' after the following statement?\nx = [i**2 for i in range(4)]",
+      "options" : ["[0, 1, 2, 3, 4, 5]", "[1, 4, 9]", "[0, 1, 4, 9]", "[0, 1, 4, 9, 16]"],
+      "answer" : "[0, 1, 4, 9]"
+    },
+      {
+      "question" : "What will be the value of 'a' after the following statement?\na = [(x, y) for x in [0, 1, 2] for y in [3, 4, 5] if x!=y]",
+      "options" : ["[0, 1, 2, 3, 4, 5]", "[(1, 3), (1, 4), (1, 5), (2, 3), (2, 4), (2, 5)]", "[(0, 1, 2), (3, 4, 5)]",
+        "[(0, 3), (0, 4), (0, 5), (1, 3), (1, 4), (1, 5), (2, 3), (2, 4), (2, 5)]"],
+      "answer" : "[(0, 3), (0, 4), (0, 5), (1, 3), (1, 4), (1, 5), (2, 3), (2, 4), (2, 5)]"
+    },
+      {
+      "question" : "What will be the value of 'a' after the following statement?\na = [(x, y) for x in [0, 3, 5] for y in [5, 4, 0] if x!=y]",
+      "options" : ["[(0, 5), (0, 4), (3, 5), (3, 4), (3, 0), (5, 4), (5, 0)]",
+        "[(1, 3), (1, 4), (1, 5), (2, 3), (2, 4), (2, 5)]", "[(0, 3, 5), (0, 4, 5)]",
+        "[(0, 5), (0, 4), (0, 0), (3, 5), (3, 4), (3, 0), (5, 5), (5, 4), (5, 0)]"],
+      "answer" : "[(0, 5), (0, 4), (3, 5), (3, 4), (3, 0), (5, 4), (5, 0)]"
+    },
+      {
+      "question" : "What will be the value of 'x' after the following statement?\nx = [i*2-4 for i in range(5)]",
+      "options" : ["[0, 1, 2, 3, 4, 5]", "[0, 1, 2, 3, 4]", "[-4, -2, 0, 2, 4]", "[0, 1, 4, 9, 16]"],
+      "answer" : "[-4, -2, 0, 2, 4]"
+    },
+      {
+      "question" : "What will be the value of 'x' after the following statement?\nx = [i**2-3 for i in range(0, 7, 3)]",
+      "options" : ["[-3, 6, 33]", "[0, 1, 2, 3, 4]", "[-3, -2, 0, 2, 3]", "[-3, 9, 18, 36]"],
+      "answer" : "[-3, 6, 33]"
+    },
+      {
+      "question" : "What will be the value of 'x' after the following statement?\nx = [i**4// for i in range(0, 6, 2)]",
+      "options" : ["[0, 2, 36]", "[0, 1, 2, 3, 4]", "[0, 6, 2]", "[0, 2, 14]"],
+      "answer" : "[0, 2, 36]"
+    },
+      {
+      "question" : "What will be the value of 'x' after the following statement?\nx = [int(i**3/3) for i in range(0, 5, 2)]",
+      "options" : ["[0, 2, 36]", "[0, 2, 21]", "[0, 6, 2]", "[0, 2, 14]"],
+      "answer" : "[0, 2, 21]"
+    },
+      {
+      "question" : "What will be the value of 'x' after the following statement?\nx = [int(i/2-5) for i in range(3, 8, 2)]",
+      "options" : ["[-3, -2, -1]", "[0, 2, 6]", "[0, 1, 2]", "[-3, -1, 3]"],
+      "answer" : "[-3, -2, -1]"
+    },
+      {
+      "question" : "Which of the following operations is not possible while manipulating lists?",
+      "options" : ["Addition", "Multiplication", "Division", "Deletion"],
+      "answer" : "Division"
+    },
+      {
+      "question" : "Which of the following is used by interpreter to identify code blocks",
+      "options" : ["Braces", "Indentation", "Commas", "Expressions"],
+      "answer" : "Indentation"
+    },
+      {
+      "question" : "Let x = {'day':'Sunday', 'week':10}, find output of:\nprint(list(x.keys()))",
+      "options" : ["Sunday 10", "day week", "['day', 'week']", "(day, week)"],
+      "answer" : "['day', 'week']"
+    },
+      {
+      "question" : "Let x = {'day':'Sunday', 'week':10}, find output of:\nprint(tuple(x.items()))",
+      "options" : ["(('week', 10), ('day', 'Sunday'))", "('day', 'Sunday')('week', 10)", "['day', 'week']", "(day, week)"],
+      "answer" : "(('week', 10), ('day', 'Sunday'))"
+    },
+      {
+      "question" : "Let x = {'day':'Sunday', 'week':10}, find output of:\nprint(tuple(x.values()))",
+      "options" : ["Sunday 10", "('Sunday', 10)", "['Sunday', 10]", "10"],
+      "answer" : "('Sunday', 10)"
+    },
+      {
+      "question" : "Let x = {'day':'Sunday', 'week':10}, find output of:\nprint('day' in x.values())",
+      "options" : ["Sunday", "True", "False", "day"],
+      "answer" : "False"
+    },
+      {
+      "question" : "Let x = {'day':'Sunday', 'week':10}, find output of:\nprint('day' in x.keys())",
+      "options" : ["Sunday", "True", "False", "day"],
+      "answer" : "True"
+    },
+      {
+      "question" : "Let x = {'day':'Sunday', 'week':10}, find output of:\nprint(x.get('day', 'Friday'))",
+      "options" : ["Friday", "True", "Sunday", "day"],
+      "answer" : "Sunday"
+    },
+      {
+      "question" : "What will be the output after the following statement?\na = true",
+      "options" : ["No Error", "TypeError", "ValueError", "NameError"],
+      "answer" : "NameError"
+    }
+    ]
+}
